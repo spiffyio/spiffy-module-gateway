@@ -1,0 +1,19 @@
+version: '3.8'
+
+networks:
+  spiffy-network:
+    external: true
+
+services:
+  spiffy-gateway:
+    container_name: spiffy-gateway
+    restart: always
+    image: caddy:latest
+    volumes:
+      - ${MODULE_ROOT:-.}/caddy.json:/etc/caddy/caddy.json
+    ports:
+      - "80:80"
+      - "443:443"
+    command: ["caddy", "run", "--config", "/etc/caddy/caddy.json"]
+    networks:
+      - spiffy-network

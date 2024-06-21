@@ -1,0 +1,92 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Bower dependency directory
+bower_components/
+
+# Testing
+coverage/
+*.lcov
+
+# VS Code
+.vscode/
+.vscode/*
+
+# JetBrains
+.idea/
+.idea/*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Linux files
+*.swp
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.config/
+.rvmrc
+.bundle/
+
+# PHP
+vendor/
+
+# Go
+bin/
+vendor/
+*.exe
+
+# Rust
+target/
+
+# Dart
+.dart_tool/
+.packages
+
+# Swift
+build/
+*.xcodeproj/
+*.xcworkspace/
+*.swiftpm/
