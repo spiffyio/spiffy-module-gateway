@@ -1,0 +1,6 @@
+version: '1.0'
+
+gateway:
+  gateway_type: Caddy
+  
+  
