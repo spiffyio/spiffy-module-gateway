@@ -11,6 +11,8 @@ services:
     image: caddy:latest
     volumes:
       - ${MODULE_ROOT:-.}/caddy.json:/etc/caddy/caddy.json
+      - ${DATA_ROOT:-.}/caddy-config:/config
+      - ${DATA_ROOT:-.}/caddy-data:/data
     ports:
       - "80:80"
       - "443:443"
