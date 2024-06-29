@@ -1,6 +1,9 @@
 version: '1.0'
 module_name: spiffy-gateway
 module_type: gateway
+dependencies:
+  - module_type: auth
+  - module_type: route
 
 gateway_config:
   gateway_type: Caddy
